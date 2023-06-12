@@ -1,0 +1,78 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*You have selected TCP!!* :golf:"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "1.    Help us with your *Short Term Goals.*"
+			},
+			"accessory": {
+				"type": "checkboxes",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*AI / Machine Learning*"
+						},
+						"value": "AIML"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Cloud Native Landscape*"
+						},
+						"value": "CNL"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Python*"
+						},
+						"value": "Python"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Design Patterns*"
+						},
+						"value": "DP"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Git Ops*"
+						},
+						"value": "GO"
+					}
+				],
+				"action_id": "checkboxes-action"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Next",
+						"emoji": true
+					},
+					"value": "tcp_ltg_survey",
+					"action_id": "submit_short_term_goals"
+				}
+			]
+		}
+	]
+}

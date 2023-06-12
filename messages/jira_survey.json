@@ -1,0 +1,71 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "Hey! An update on SSHOTHLTH-976 ",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "SSHOTHLTH-976 Feature XYZ blocked due to failure of ABC",
+				"emoji": true
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Blocker tag has been removed by Ankita Uduppa! :white_check_mark:",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Reduce Priority Move to Next Sprint (44) :fast_forward:"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Click Here",
+					"emoji": true
+				},
+				"value": "jira_update_done",
+				"action_id": "jira_update"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "No Change needed. Relavent to current sprint."
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Click Here",
+					"emoji": true
+				},
+				"value": "click_me_123",
+				"action_id": "button-action"
+			}
+		}
+	]
+}

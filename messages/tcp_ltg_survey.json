@@ -1,0 +1,78 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*You have selected TCP!!* :mortar_board:"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "2.  Help us with your *Long Term* Goals."
+			},
+			"accessory": {
+				"type": "checkboxes",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Master of Edge Computing*"
+						},
+						"value": "edge"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Quantum Machine Learning Analyst*"
+						},
+						"value": "quantum"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Virtual Store Sherpa*"
+						},
+						"value": "sherpa"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Avionics/Meteorological Specialists*"
+						},
+						"value": "avionic"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Quantitative and statistical analysis*"
+						},
+						"value": "quantitative"
+					}
+				],
+				"action_id": "checkboxes-action"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Next",
+						"emoji": true
+					},
+					"value": "skills_input",
+					"action_id": "submit_long_term_goals"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,75 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": " *CREATOR's VERSE can be your virtual guide!* :seedling: \n Would you like to enroll for the program ?"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Enrol for our program*"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Enroll",
+					"emoji": true
+				},
+				"value": "enrolment_form",
+				"action_id": "enroll"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Not Sure! Need Help?*"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Know More",
+					"emoji": true
+				},
+				"value": "details_page",
+				"action_id": "know_more"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Not interested*"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "No Thanks",
+					"emoji": true
+				},
+				"value": "exit_page",
+				"action_id": "no_thanks"
+			}
+		},
+		{
+			"type": "divider"
+		}
+	]
+}

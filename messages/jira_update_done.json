@@ -1,0 +1,37 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": " SSHOTHLTH-976 :heavy_check_mark:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "SSHOTHLTH-976 Feature XYZ blocked due to failure of ABC",
+				"emoji": true
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Has been successfully moved to sprint 44  :white_check_mark:",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "divider"
+		}
+	]
+}

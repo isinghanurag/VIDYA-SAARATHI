@@ -1,0 +1,64 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Help us know you a little more!* :information_desk_person:"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*5.* How long can you sit in one stretch and listen/read content on a specific topic?"
+			},
+			"accessory": {
+				"type": "checkboxes",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*0-15 Minutes*"
+						},
+						"value": "self_virtual"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*15-60 Minutes*"
+						},
+						"value": "class_virtual"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*2-3 hours*"
+						},
+						"value": "job"
+					}
+				],
+				"action_id": "checkboxes-action"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Next",
+						"emoji": true
+					},
+					"value": "time_for_learning",
+					"action_id": "submit_attention_span"
+				}
+			]
+		}
+	]
+}

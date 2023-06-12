@@ -1,0 +1,144 @@
+{
+	"type": "home",
+	"channel": "test",
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "4. Please select skills you would like to build over next few months:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Programing Languages:"
+			},
+			"accessory": {
+				"type": "checkboxes",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Python* - Aligns 100% Short Term Goal1 :full_moon:"
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*R* - Aligns 20% Short Term Goal1 :waning_crescent_moon:"
+						},
+						"value": "value-2"
+					}
+				],
+				"action_id": "checkboxes-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "AI / Machine learning:"
+			},
+			"accessory": {
+				"type": "checkboxes",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Neural network architectures* - Aligns 100% to Short Term Goal1 :full_moon:"
+						},
+						"value": "value-1"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Signal processing techniques* - Aligns 50% to Short Term Goal 2 :first_quarter_moon: "
+						},
+						"value": "value-2"
+					}
+				],
+				"action_id": "checkboxes-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Cloud Native Landscape:"
+			},
+			"accessory": {
+				"type": "checkboxes",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*SALT Stack* - Aligns 20% to Short Term Goal 2 :waning_crescent_moon:"
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Informational security* - Aligns 60% to Short Term Goal 2 :waxing_gibbous_moon: "
+						},
+						"value": "value-2"
+					}
+				],
+				"action_id": "checkboxes-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Cloud Platforms:"
+			},
+			"accessory": {
+				"type": "checkboxes",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*AZURE* - Aligns 100% to Short Term Goal2 :full_moon:"
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*AWS* - Aligns 100% to Short Term Goal2 :full_moon:"
+						},
+						"value": "value-1"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Google cloud platform* - Aligns 100% to Short Term Goal2 :full_moon:"
+						},
+						"value": "value-2"
+					}
+				],
+				"action_id": "checkboxes-action"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Next",
+						"emoji": true
+					},
+					"value": "attention_span",
+					"action_id": "delta_skills_submit"
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,90 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Help us know you better!!* :seedling:"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "To explore  Technical Career"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Click Here",
+					"emoji": true
+				},
+				"value": "tcp_stg_survey",
+				"action_id": "technical_career_path"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "To explore  Management Career Path"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Click Here",
+					"emoji": true
+				},
+				"value": "mcp_stg_survey",
+				"action_id": "management_career_path"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Not Sure! Need Help?"
+			},
+			"accessory": {
+				"type": "button",
+				"text": {
+					"type": "plain_text",
+					"text": "Click Here",
+					"emoji": true
+				},
+				"value": "career_guidance",
+				"action_id": "career_guidance"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Home",
+						"emoji": true
+					},
+					"value": "click_me_123",
+					"action_id": "home"
+				}
+			]
+		}
+	]
+}

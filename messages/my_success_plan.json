@@ -1,0 +1,92 @@
+{
+	"type": "home",
+	"channel":"test",
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": " My Success Plan :mortar_board: :books:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": "Your current focus: Technical Career Path",
+				"emoji": true
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Mentors:    :white_circle:P,R Vrashi Ponnapa,       :red_circle: K, Ravindra S Kini",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":green_book: Design Patterns with Advanced Java     *Source*: Knowledge Works (HPE)  <https://www.skillsoft.com |click here>"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":green_book: Kaggle data cenric AI             *Source*: Kaggle (Self)  <https://www.kaggle.com|click here>"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":green_book: Business Writing     *Source*: Coursera (Tech on Tap)  <https://www.coursera.org/learn/writing-for-business/home/welcome|click here>"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Home",
+						"emoji": true
+					},
+					"value": "welcome",
+					"action_id": "home"
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Training Recommendation",
+						"emoji": true
+					},
+					"value": "training_recommendation",
+					"action_id": "training_recommendation"
+				}
+			]
+		}
+	]
+}

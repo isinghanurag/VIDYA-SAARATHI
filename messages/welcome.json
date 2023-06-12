@@ -1,0 +1,123 @@
+{
+	"type": "home",
+	"channel": "test",
+	"blocks": [
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "     :anger: Welcome to Creator's VERSE !:anger:  \n     Honoured to have you on-board! :sunglasses:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Get Set GO! Stay focused on K of your KPIs.",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Dashboard",
+						"emoji": true
+					},
+					"value": "dashboard",
+					"action_id": "dashboard"
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "80% progress with just 20% of efforts !",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Priorities for today",
+						"emoji": true
+					},
+					"value": "priorities",
+					"action_id": "priorities"
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Your secret sause!",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "My Success Plan",
+						"emoji": true
+					},
+					"value": "my_success_plan",
+					"action_id": "my-success-plan"
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Put yourself at the top of the todo list!",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "My Fitness Plan",
+						"emoji": true
+					},
+					"value": "my_fitness_plan",
+					"action_id": "my-fitness-plan"
+				}
+			]
+		},
+		{
+			"type": "divider"
+		}
+	]
+}

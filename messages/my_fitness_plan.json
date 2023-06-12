@@ -1,0 +1,89 @@
+{
+	"type": "home",
+	"channel": "test",
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": ":tada:-------Great Choice----:tada:\n Take time to do what makes you HAPPY ! :relaxed:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Choose your health goal."
+			},
+			"accessory": {
+				"type": "checkboxes",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Capture steps*"
+						},
+						"description": {
+							"type": "mrkdwn",
+							"text": "HPE Global Wellness"
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Calculate your BMI*"
+						},
+						"description": {
+							"type": "mrkdwn",
+							"text": "*Update fitness statistics*"
+						},
+						"value": "value-1"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Not sure!*"
+						},
+						"description": {
+							"type": "mrkdwn",
+							"text": "*No problem! We got you.*"
+						},
+						"value": "value-2"
+					}
+				],
+				"action_id": "checkboxes-action"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "PS: Sure! What ever hurts more! :tired_face: \n              :soccer: :muscle::runner: :bicyclist: :runner: :swimmer:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Submit",
+						"emoji": true
+					},
+					"value": "gwc_input",
+					"action_id": "health-submit"
+				}
+			]
+		}
+	]
+}

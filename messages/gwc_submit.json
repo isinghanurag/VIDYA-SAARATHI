@@ -1,0 +1,45 @@
+{
+	"type": "home",
+	"channel": "test",
+	"blocks": [
+		{
+			"type": "divider"
+		},
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "  Great job !  \n Your data in Virgin Pulse up to date :sunglasses:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "As team AAROGYA you have unlocked CHALLENGE1. \n 1,20,000 steps to unlock CHALLENGE 2",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Home ",
+						"emoji": true
+					},
+					"value": "welcome",
+					"action_id": "home"
+				}
+			]
+		}
+	]
+}

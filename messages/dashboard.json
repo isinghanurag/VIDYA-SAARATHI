@@ -1,0 +1,294 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": ":anger:       Dashboard       :anger:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": " *Career Focus: * Technical Career Path"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"fields": [
+				{
+					"type": "plain_text",
+					"text": ":arrow_up:FOCUS",
+					"emoji": true
+				},
+				{
+					"type": "plain_text",
+					"text": ":arrow_down_small:DEFOCUS",
+					"emoji": true
+				},
+				{
+					"type": "plain_text",
+					"text": "- AI / Machine Learning",
+					"emoji": true
+				},
+				{
+					"type": "plain_text",
+					"text": "- HPUX",
+					"emoji": true
+				},
+				{
+					"type": "plain_text",
+					"text": "- Kubernetes",
+					"emoji": true
+				},
+				{
+					"type": "plain_text",
+					"text": "- Java",
+					"emoji": true
+				},
+				{
+					"type": "plain_text",
+					"text": "- Python, R",
+					"emoji": true
+				},
+				{
+					"type": "plain_text",
+					"text": "- Shell Programing",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": " *Short Term Goal 1: * AI / Machine Learning"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": ":red_circle:   Percentage Achieved: 30%      Due by: 31st March 2022  ",
+				"emoji": true
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": ":mortar_board:     *Associated Trainings:* "
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Design Patterns Using Python:  HPE : Knowledge Works \n Data centrc AI Fundamentals: Self Paced: Kaggle",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": ":hourglass:     *On the Job Learning:* "
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "CL-IMPL-800 -Check for bias-variance \n CL_IMPL-998 - Create Simple data flow graphs using TensorFlow",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": " *Short Term Goal 2: * Cloud Native Landscape "
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": ":large_blue_circle: Percentage Achieved: 80%      Due by: 30th June 2022.",
+				"emoji": true
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": ":mortar_board: *Associated Trainings:* "
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Kubernetes & Docker:  HPE : Knowledge Works\n Serverless Functions : Guided Project: Coursera",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "*Ongoing Tasks:* "
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "None ",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": " *Long Term Goal 1: * Quantum Machine Learning Analyst"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": ":black_circle:Percentage Acieved: 0%",
+				"emoji": true
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "*Associated Trainings:* "
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Yet to explore!",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "*Ongoing Tasks:* "
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "None",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": " *Fitness Goal* : Clock 7K steps per day"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "plain_text",
+				"text": ":muscle: HPE Marathon.",
+				"emoji": true
+			}
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "mrkdwn",
+					"text": "*Ongoing Tasks:* "
+				}
+			]
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "GWC Fitness Challenge: Team AAROGYA",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Home",
+						"emoji": true
+					},
+					"value": "welcome",
+					"action_id": "home"
+				}
+			]
+		}
+	]
+}

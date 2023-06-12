@@ -1,0 +1,164 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": "3. Please select the skills you are familiar with:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Programing Languages:"
+			},
+			"accessory": {
+				"type": "checkboxes",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Python*"
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Java*"
+						},
+						"value": "value-1"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*R*"
+						},
+						"value": "value-2"
+					}
+				],
+				"action_id": "checkboxes-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "AI / Machine learning:"
+			},
+			"accessory": {
+				"type": "checkboxes",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Linear algebra and statistics*"
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Neural network architectures*"
+						},
+						"value": "value-1"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Signal processing techniques*"
+						},
+						"value": "value-2"
+					}
+				],
+				"action_id": "checkboxes-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Cloud Native Landscape:"
+			},
+			"accessory": {
+				"type": "checkboxes",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*SALT Stack*"
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Database Programming*"
+						},
+						"value": "value-1"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Informational security*"
+						},
+						"value": "value-2"
+					}
+				],
+				"action_id": "checkboxes-action"
+			}
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "Cloud Platforms:"
+			},
+			"accessory": {
+				"type": "checkboxes",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*AZURE*"
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*AWS*"
+						},
+						"value": "value-1"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Google cloud platform*"
+						},
+						"value": "value-2"
+					}
+				],
+				"action_id": "checkboxes-action"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Next",
+						"emoji": true
+					},
+					"value": "delta_skills",
+					"action_id": "skills_submit"
+				}
+			]
+		}
+	]
+}

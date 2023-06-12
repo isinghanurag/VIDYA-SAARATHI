@@ -1,0 +1,50 @@
+{
+	"type": "home",
+    "channel" : "xxxx",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Welcome to the Survey* :tada:"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Please select your career aspiration*"
+			},
+			"accessory": {
+				"type": "radio_buttons",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Technical Career Path*"
+						},
+						"value": "value-0"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Managment Career Path*"
+						},
+						"value": "value-1"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Not Decided*"
+						},
+						"value": "value-2"
+					}
+				],
+				"action_id": "radio_buttons-action"
+			}
+		}
+	]
+}

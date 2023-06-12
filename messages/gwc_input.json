@@ -1,0 +1,65 @@
+{
+	"type": "home",
+	"channel": "test",
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": ":muscle:-------Please Enter your steps count----:running:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "datepicker",
+					"initial_date": "2022-02-25",
+					"placeholder": {
+						"type": "plain_text",
+						"text": "Select a date",
+						"emoji": true
+					},
+					"action_id": "actionId-0"
+				}
+			]
+		},
+		{
+			"type": "input",
+			"element": {
+				"type": "plain_text_input",
+				"action_id": "plain_text_input-action"
+			},
+			"label": {
+				"type": "plain_text",
+				"text": "Step count",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Submit",
+						"emoji": true
+					},
+					"value": "gwc_submit",
+					"action_id": "gwc_submit"
+				}
+			]
+		}
+	]
+}

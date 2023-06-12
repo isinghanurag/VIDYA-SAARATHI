@@ -1,0 +1,85 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Help us know you a little more!* :information_desk_person:"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*1.* What are your prefered modes of learning?"
+			},
+			"accessory": {
+				"type": "checkboxes",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Virtual Self Paced*"
+						},
+						"value": "self_virtual"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Virtual Class Room*"
+						},
+						"value": "class_virtual"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*On the Job Projects*"
+						},
+						"value": "job"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Mentorship Programs*"
+						},
+						"value": "mentor"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Online Self-paced Reading*"
+						},
+						"value": "reading"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*Self-paced learning from books*"
+						},
+						"value": "books"
+					}
+				],
+				"action_id": "checkboxes-action"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Submit",
+						"emoji": true
+					},
+					"value": "attention_span",
+					"action_id": "modes_of_training"
+				}
+			]
+		}
+	]
+}

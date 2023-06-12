@@ -1,0 +1,99 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "header",
+			"text": {
+				"type": "plain_text",
+				"text": ":anger:       Priorities       :anger:",
+				"emoji": true
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "context",
+			"elements": [
+				{
+					"type": "plain_text",
+					"text": "Here is a compilation of all your tasks and learnings ordered as per priority",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": ":arrow_up: *CDP Goals on Workday:* Update Q1 goals : *Due TODAY* \n :arrow_up: *IWD Hackathon:* : Final submission *Due TODAY*\n:arrow_up: *CL-IMPL-800* -Check for bias-variance *Due 27th February 2022* \n:arrow_down_small: *CL_IMPL-998* - Create Simple data flow graphs using TensorFlow : *Due 30th April 2022* \n:arrow_down_small: *GWC Fitness challenge*: Steps due from 22nd February 2022"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"fields": [
+				{
+					"type": "plain_text",
+					"text": ":arrow_up:FOCUS",
+					"emoji": true
+				},
+				{
+					"type": "plain_text",
+					"text": ":arrow_down_small:DEFOCUS",
+					"emoji": true
+				},
+				{
+					"type": "plain_text",
+					"text": "- AI / Machine Learning",
+					"emoji": true
+				},
+				{
+					"type": "plain_text",
+					"text": "- HPUX",
+					"emoji": true
+				},
+				{
+					"type": "plain_text",
+					"text": "- Kubernetes",
+					"emoji": true
+				},
+				{
+					"type": "plain_text",
+					"text": "- Java",
+					"emoji": true
+				},
+				{
+					"type": "plain_text",
+					"text": "- Python, R",
+					"emoji": true
+				},
+				{
+					"type": "plain_text",
+					"text": "- Shell Programing",
+					"emoji": true
+				}
+			]
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Home",
+						"emoji": true
+					},
+					"value": "welcome",
+					"action_id": "priorities"
+				}
+			]
+		}
+	]
+}

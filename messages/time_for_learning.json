@@ -1,0 +1,64 @@
+{
+	"type": "home",
+	"blocks": [
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*Help us know you a little more!* :information_desk_person:"
+			}
+		},
+		{
+			"type": "divider"
+		},
+		{
+			"type": "section",
+			"text": {
+				"type": "mrkdwn",
+				"text": "*6.* How much time can you devote *per week* for dedicated learning?"
+			},
+			"accessory": {
+				"type": "checkboxes",
+				"options": [
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*0-4 hours*"
+						},
+						"value": "self_virtual"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*4-8 hours*"
+						},
+						"value": "class_virtual"
+					},
+					{
+						"text": {
+							"type": "mrkdwn",
+							"text": "*8-16 hours*"
+						},
+						"value": "job"
+					}
+				],
+				"action_id": "checkboxes-action"
+			}
+		},
+		{
+			"type": "actions",
+			"elements": [
+				{
+					"type": "button",
+					"text": {
+						"type": "plain_text",
+						"text": "Submit",
+						"emoji": true
+					},
+					"value": "welcome",
+					"action_id": "submit_time_for_learning"
+				}
+			]
+		}
+	]
+}
